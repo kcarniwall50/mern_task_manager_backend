@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:false}))
 
 app.use(cors(
 {
-  origin:["http://localhost:3000", "http://mern_task_manager.onrender.com"]
+  origin:["http://localhost:3000", "https://mern-task-manager-app-zklz.onrender.com"]
 }
 ))
 // ---------------------------------------
